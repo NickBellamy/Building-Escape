@@ -23,7 +23,7 @@ void UGrabber::BeginPlay()
 {
 	Super::BeginPlay();
 
-	UE_LOG(LogTemp, Warning, TEXT("Grabber reporting for duty!"));
+	UE_LOG(LogTemp, Warning, TEXT("Grabber reporting for duty!"))
 	
 }
 
@@ -40,7 +40,7 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(OUT PlayerViewPointLocation, OUT PlayerViewPointRotation);
 
 	// Log view point to output console
-	UE_LOG(LogTemp, Warning, TEXT("Location: %s, Rotation: %s"), *(PlayerViewPointLocation.ToString()), *(PlayerViewPointRotation.ToString()));
+	UE_LOG(LogTemp, Warning, TEXT("Location: %s, Rotation: %s"), *(PlayerViewPointLocation.ToString()), *(PlayerViewPointRotation.ToString()))
 
 	// Ray-cast out to reach distance
 
