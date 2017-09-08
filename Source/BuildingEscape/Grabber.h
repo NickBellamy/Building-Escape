@@ -23,4 +23,8 @@ protected:
 public:	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
+
+private:
+	// Range of grabbing functionality
+	float reach = 100.0f;
 };
