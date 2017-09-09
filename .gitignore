@@ -66,4 +66,5 @@ Intermediate/*
 DerivedDataCache/*
 
 # User defined exclusions
-/Content/StarterContent
+/Content/StarterContent/Textures
+/Content/StarterContent/HDRI
