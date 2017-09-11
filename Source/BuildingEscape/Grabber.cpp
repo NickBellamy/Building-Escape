@@ -1,7 +1,9 @@
 // Copyright Nick Bellamy 2017
 
-#include "BuildingEscape.h"
 #include "Grabber.h"
+#include "GameFramework/Actor.h"
+#include "Engine/World.h"
+#include "DrawDebugHelpers.h"
 
 // Macro to tag input parameters that are changed by the function
 #define OUT

@@ -3,7 +3,6 @@
 #pragma once
 
 #include "PhysicsEngine/PhysicsHandleComponent.h"
-#include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "Grabber.generated.h"
 

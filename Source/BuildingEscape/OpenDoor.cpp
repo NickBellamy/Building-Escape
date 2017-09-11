@@ -1,7 +1,7 @@
 // Copyright Nick Bellamy 2017
 
-#include "BuildingEscape.h"
 #include "OpenDoor.h"
+#include "Engine/World.h"
 
 
 // Sets default values for this component's properties
