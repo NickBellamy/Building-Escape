@@ -29,7 +29,7 @@ void UGrabber::BeginPlay()
 
 	///Look for attached physics handle
 	PhysicsHandle = GetOwner()->FindComponentByClass<UPhysicsHandleComponent>();
-	if (!PhysicsHandle) 
+	if (PhysicsHandle) 
 	{
 		//PhysicsHandle Found
 	}
