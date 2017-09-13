@@ -40,5 +40,5 @@ private:
 	float LastDoorOpenTime;
 		
 	AActor* ActorThatOpens;
-	AActor* Owner;		//The owning door
+	AActor* Owner;		// The owning door
 };
