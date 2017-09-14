@@ -1,7 +1,6 @@
 // Copyright Nick Bellamy 2017
 
 #include "Grabber.h"
-#include "GameFramework/Actor.h"
 #include "Engine/World.h"
 #include "DrawDebugHelpers.h"
 
