@@ -84,7 +84,7 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 
 FHitResult UGrabber::GetFirstPhysicsBodyInReach() const
 {
-	/// Get player view point this tick
+	/// Get player view point
 	FVector PlayerViewPointLocation;
 	FRotator PlayerViewPointRotation;
 
