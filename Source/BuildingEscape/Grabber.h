@@ -26,7 +26,7 @@ public:
 
 private:
 	// Range of grabbing functionality
-	float reach = 100.0f;
+	float Reach = 100.0f;
 
 	UPhysicsHandleComponent* PhysicsHandle = nullptr;
 
