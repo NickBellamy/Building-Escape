@@ -47,4 +47,7 @@ private:
 
 	// Returns total mass in kg
 	float GetTotalMassOfActorsOnPlate() const;
+
+	UPROPERTY(EditAnywhere)
+		float TriggerMass = 30.0f;
 };
