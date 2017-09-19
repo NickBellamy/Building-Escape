@@ -72,7 +72,7 @@ void UGrabber::Grab()
 	// If we hit something then attach physics handle
 	if (ActorHit)
 	{
-		PhysicsHandle->GrabComponent(ComponentToGrab, NAME_None, ComponentToGrab->GetOwner()->GetActorLocation(), true);
+		PhysicsHandle->GrabComponentAtLocation(ComponentToGrab, NAME_None, ComponentToGrab->GetOwner()->GetActorLocation());
 	}
 }
 
